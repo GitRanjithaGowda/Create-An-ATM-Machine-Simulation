@@ -9,10 +9,20 @@
 name: import os
 import time
 import random
+#importing tkinter-related modules and packages
+from tkinter import *
+from tkinter import messagebox
+from tkinter.scrolledtext import ScrolledText
 
-on:
-  release:
-    types: [published]
+#importing custom-made modules written for the program
+from BankAtm import *
+from Admin import *
+from Design import *
+
+
+on: Github
+  release: 02/10/2024
+    types: [Public]
 
 permissions:
   contents: read
