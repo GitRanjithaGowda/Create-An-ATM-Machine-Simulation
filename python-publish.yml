@@ -6,7 +6,9 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: import os
+import time
+import random
 
 on:
   release:
